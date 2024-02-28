@@ -1,3 +1,5 @@
+gcc maze.c -o maze
+
 ###FILE###
 
 #Testing if a file is selected
@@ -11,6 +13,7 @@ fi
 
 #Testing if the file exists
 ./maze okokok > tmp
+echo -n "Testing if the file exists - "
 if grep -q "File does not exist." tmp;
 then
     echo "PASS"
@@ -221,3 +224,5 @@ then
 else
     echo "FAIL"
 fi
+
+rm -f maze tmp
