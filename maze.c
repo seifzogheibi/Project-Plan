@@ -1,10 +1,27 @@
 #include <stdio.h>
 
+
+//struct for storing maze data
+struct maze {
+int storage[100][100];
+
+};
+
+//Reading the maze
 void read_maze(char *filename){
     printf("Invalid size");
 }
 
+
+
+
+//Insert some type of loop for the user to be able to move continuously 
+//while loop since we dont know when the user would reach the exit
+
+
 int main(int argc, char **argv){
+
+//read_maze()
 
 }
 
