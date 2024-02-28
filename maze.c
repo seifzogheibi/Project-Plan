@@ -1,19 +1,32 @@
 #include <stdio.h>
 
+//struct for storing maze data in 2D array
+typedef struct Maze{
+int storage[100][100]; //Can be changed after maze dimensions are known
+} Maze;
 
-//struct for storing maze data
-struct maze {
-int storage[100][100];
+//struct to display the player
+typedef struct Player{
+    int x;
+    int y;
+} Player;
 
-};
-
-//Reading the maze
-void read_maze(char *filename){
-    printf("Invalid size");
+//Function for reading the maze
+void read_maze(char *filename, Maze* maze) {
+    //add file reading code
 }
 
+//Function for displaying the maze
+void display_maze(const Maze* maze, const Player* player){
+    //use loops to display the maze and player
+}
 
-
+//Function to move the player
+_Bool move_player(Maze* maze, Player* player, char movement){
+    //add player movement code
+    //update players position in the maze based on the movement
+    //return true if the movement was successful, false if not
+}
 
 //Insert some type of loop for the user to be able to move continuously 
 //while loop since we dont know when the user would reach the exit
@@ -21,38 +34,12 @@ void read_maze(char *filename){
 
 int main(int argc, char **argv){
 
-//read_maze()
+//Call the reading function
+
+//Call the display function
+
+//
+
+//Print message for when player reaches the exit
 
 }
-
-int is_player_position_S(int x, int y){
-    //start describing 
-
-    // you want to do in this code
-
-    //just using comments
-
-    //and you basically tell amy
-
-    //what she needs to do in the code
-
-    //in this function
-}
-
-//do the same for diferent functions with different function names and then in the main function write comments that explain
-//that you will call the different functions you defined but from the main() funciton
-
-
-//do the same for typedef struct
-
-//you can writr your comments the way you like( paragrphs or comments or cutted comments idk idc just do it)
-
-//when you need just to define any variable you can do it as it is not actual code
-//for e.g : 
-
-#define rows 14;
-#define cols 18;
-//bas you put this in the beginning of your code , so only define and comments all over the codes.
-
-//conclusion : this is fors writing functions and commenting every single one of them and explaining what she needs to implements if you give her this skeleton code you understand you piece of shit
-
