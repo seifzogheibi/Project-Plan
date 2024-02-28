@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//This test is adapted from an example provided on w3schools.com "How to write structs in C."//
+
 //struct for storing maze data in 2D array
 typedef struct Maze{
 int storage[100][100]; //Can be changed after maze dimensions are known
@@ -48,3 +50,5 @@ int main(int argc, char **argv){
 
 return 0;
 }
+
+//This test is adapted from chatGPT’s response to the prompt ‘Show me different skeleton codes and explain what key details I need to include in my skeleton code for a game.’
