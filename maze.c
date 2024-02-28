@@ -16,7 +16,7 @@ void read_maze(char *filename, Maze* maze) {
     //add file reading code
 }
 
-//Function for displaying the maze
+//Function for displaying the maze and playsr
 void display_maze(const Maze* maze, const Player* player){
     //use loops to display the maze and player
 }
@@ -28,18 +28,23 @@ _Bool move_player(Maze* maze, Player* player, char movement){
     //return true if the movement was successful, false if not
 }
 
-//Insert some type of loop for the user to be able to move continuously 
-//while loop since we dont know when the user would reach the exit
-
-
 int main(int argc, char **argv){
 
 //Call the reading function
 
 //Call the display function
 
-//
+
+//---Game---//
+
+//Add user input reader to allow movement
+
+//Add code that updates the maze as the player move i.e player position is stored
+
+//Insert some type of loop for the user to be able to move continuously 
+    //while loop since we dont know when the user would reach the exit
 
 //Print message for when player reaches the exit
 
+return 0;
 }
