@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//This test is adapted from an example provided on w3schools.com "How to write structs in C."//
+//This code is adapted from an example provided on w3schools.com "How to write structs in C."//
 
 //struct for storing maze data in 2D array
 typedef struct Maze{
